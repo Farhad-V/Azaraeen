@@ -14,4 +14,4 @@ Multiple templates, advanced page-building and automatic application-corresponde
 
 ## Delivery dependencies
 
-Use the existing [lifecycle and dependency plan](../SDLC/01-Project-Planning/04-Delivery-and-Quality-Approach/01-Lifecycle-Dependencies-and-Quality.md) rather than duplicating phase planning here. Priorities are developed in the [Backlog](04-Backlog.md); changes are recorded in [Decisions and Open Questions](06-Decisions-and-Open-Questions.md).
+Use the existing [lifecycle and dependency plan](../SDLC/01-Project-Planning/Topics/04-Delivery-and-Quality-Approach/01-Lifecycle-Dependencies-and-Quality.md) rather than duplicating phase planning here. Priorities are developed in the [Backlog](04-Backlog.md); changes are recorded in [Decisions and Open Questions](06-Decisions-and-Open-Questions.md).

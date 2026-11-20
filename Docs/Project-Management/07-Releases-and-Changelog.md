@@ -8,7 +8,7 @@ Use the agreed patch/minor/major distinctions where applicable. The initial rele
 
 ## Deployment references
 
-[Release and Launch](../SDLC/06-Deployment-Release/01-Release-Management/01-Release-and-Launch.md) owns execution procedures. [Build/Test/Release Automation](../SDLC/06-Deployment-Release/01-Release-Management/02-Build-Test-and-Release-Automation.md) owns automation guidance. This file records what actually shipped, without duplicating those procedures.
+[Release and Launch](../SDLC/06-Deployment-Release/Topics/01-Release-Management/01-Release-and-Launch.md) owns execution procedures. [Build/Test/Release Automation](../SDLC/06-Deployment-Release/Topics/01-Release-Management/02-Build-Test-and-Release-Automation.md) owns automation guidance. This file records what actually shipped, without duplicating those procedures.
 
 ## Published releases
 

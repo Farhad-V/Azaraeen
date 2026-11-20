@@ -17,4 +17,4 @@ Azaraeen combines a public professional introduction, owner-controlled protected
 
 ## Relationship to planning
 
-This document owns the product direction and intended value. [Project Planning](../SDLC/01-Project-Planning/01-Project-Definition/01-Project-Plan.md) owns delivery approach, scope, responsibilities, resources and risks. Vision does not establish a release date, technical stack or numerical hiring target.
+This document owns the product direction and intended value. [Project Planning](../SDLC/01-Project-Planning/Topics/01-Project-Definition/01-Project-Plan.md) owns delivery approach, scope, responsibilities, resources and risks. Vision does not establish a release date, technical stack or numerical hiring target.

@@ -10,7 +10,7 @@ Record title, user/problem value, linked requirement or decision, acceptance cri
 
 ## Source of truth
 
-The [functional baseline](../SDLC/02-Requirements-Engineering/02-Requirement-Specification/01-Functional-Requirements.md) supplies required behavior; the [acceptance/traceability document](../SDLC/02-Requirements-Engineering/04-Acceptance-and-Traceability/01-Acceptance-Criteria-and-Traceability.md) links criteria and verification. GitHub Issues/Kanban can hold the working items when configured; this file does not claim those issues exist.
+The [functional baseline](../SDLC/02-Requirements-Engineering/Topics/02-Requirement-Specification/01-Functional-Requirements.md) supplies required behavior; the [acceptance/traceability document](../SDLC/02-Requirements-Engineering/Topics/04-Acceptance-and-Traceability/01-Acceptance-Criteria-and-Traceability.md) links criteria and verification. GitHub Issues/Kanban can hold the working items when configured; this file does not claim those issues exist.
 
 ## Current items
 
