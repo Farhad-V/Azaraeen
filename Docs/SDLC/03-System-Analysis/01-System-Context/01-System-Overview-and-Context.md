@@ -22,8 +22,8 @@ Job portals and employer systems are external. Application details and correspon
 
 ## Related sources
 
-- [Functional requirements](../../02-Requirements/02-Requirement-Specification/01-Functional-Requirements.md)
-- [Stakeholders and users](../../02-Requirements/01-Discovery/02-Stakeholders-and-Users.md)
+- [Functional requirements](../../02-Requirements-Engineering/02-Requirement-Specification/01-Functional-Requirements.md)
+- [Stakeholders and users](../../02-Requirements-Engineering/01-Discovery/02-Stakeholders-and-Users.md)
 - [Processes and scenarios](../02-Behavior-and-Processes/01-Processes-and-User-Scenarios.md)
 
 Detailed context diagrams remain to be developed.

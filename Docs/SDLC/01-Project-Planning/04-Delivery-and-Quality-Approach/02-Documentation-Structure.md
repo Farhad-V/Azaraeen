@@ -1,6 +1,6 @@
 ## Documentation structure
 
-Phase -> primary category -> named topic document. Category folders have no README files. This tree records the current documentation organization; outlines do not imply completed work.
+Phase -> category -> named topic document. Agile Iterative Development groups UX/UI design, implementation and testing into workstreams with their own categories. Category folders have no README files. This tree records the current documentation organization; outlines do not imply completed work.
 
 ```text
 SDLC/
@@ -24,7 +24,7 @@ SDLC/
 |   |   |-- 01-Project-Risks-and-Constraints.md
 |   |-- 07-Feasibility/
 |   |   |-- 01-Technical-Operational-and-Cost-Feasibility.md
-|-- 02-Requirements/
+|-- 02-Requirements-Engineering/
 |   |-- 01-Discovery/
 |   |   |-- 01-Discovery-and-Research.md
 |   |   |-- 02-Stakeholders-and-Users.md
@@ -73,46 +73,47 @@ SDLC/
 |   |-- 06-Infrastructure/
 |   |   |-- 01-Hosting-and-Observability.md
 |   |   |-- 02-Backup-and-Recovery-Design.md
-|-- 05-UX-UI-Design/
-|   |-- 01-Structure-and-Interaction/
-|   |   |-- 01-Information-Architecture.md
-|   |   |-- 02-User-Flows.md
-|   |-- 02-Interface-Design/
-|   |   |-- 01-Wireframes.md
-|   |   |-- 02-Visual-Design.md
-|   |   |-- 03-Components-and-Interaction-States.md
-|   |-- 03-Prototyping-and-Evaluation/
-|   |   |-- 01-Prototypes-and-Usability-Evaluation.md
-|   |-- 04-Content-and-Accessibility/
-|   |   |-- 01-Bilingual-Content-and-Accessibility.md
-|-- 06-Implementation/
-|   |-- 01-Design-and-Development-Collaboration/
-|   |   |-- 01-Design-Handoff.md
-|   |   |-- 02-Development-Collaboration.md
-|   |-- 02-Engineering-Practices/
-|   |   |-- 01-Coding-Standards-and-Patterns.md
-|   |   |-- 02-Local-Development-and-Tooling.md
-|   |   |-- 03-Shared-Code-and-Reuse.md
-|   |-- 03-Frontend/
-|   |   |-- 01-Public-and-Protected-Interfaces.md
-|   |   |-- 02-Owner-Administration.md
-|   |-- 04-Backend-and-Data/
-|   |   |-- 01-Application-Logic-and-Authorization.md
-|   |   |-- 02-Persistence-Migrations-and-Files.md
-|   |-- 05-Integrations/
-|   |   |-- 01-Mail-and-Translation-Implementation.md
-|-- 07-Testing/
-|   |-- 01-Verification/
-|   |   |-- 01-Test-Plan-and-Results.md
-|   |   |-- 02-Unit-Integration-and-System-Tests.md
-|   |-- 02-Experience-and-Acceptance/
-|   |   |-- 01-Design-QA.md
-|   |   |-- 02-User-Acceptance.md
-|   |-- 03-Security-and-Privacy/
-|   |   |-- 01-Access-and-Data-Protection-Tests.md
-|   |-- 04-Accessibility-Compatibility-and-Performance/
-|   |   |-- 01-Quality-Attribute-Tests.md
-|-- 08-Deployment/
+|-- 05-Agile-Iterative-Development/
+|   |-- 01-UX-UI-Design/
+|   |   |-- 01-Structure-and-Interaction/
+|   |   |   |-- 01-Information-Architecture.md
+|   |   |   |-- 02-User-Flows.md
+|   |   |-- 02-Interface-Design/
+|   |   |   |-- 01-Wireframes.md
+|   |   |   |-- 02-Visual-Design.md
+|   |   |   |-- 03-Components-and-Interaction-States.md
+|   |   |-- 03-Prototyping-and-Evaluation/
+|   |   |   |-- 01-Prototypes-and-Usability-Evaluation.md
+|   |   |-- 04-Content-and-Accessibility/
+|   |   |   |-- 01-Bilingual-Content-and-Accessibility.md
+|   |-- 02-Implementation/
+|   |   |-- 01-Design-and-Development-Collaboration/
+|   |   |   |-- 01-Design-Handoff.md
+|   |   |   |-- 02-Development-Collaboration.md
+|   |   |-- 02-Engineering-Practices/
+|   |   |   |-- 01-Coding-Standards-and-Patterns.md
+|   |   |   |-- 02-Local-Development-and-Tooling.md
+|   |   |   |-- 03-Shared-Code-and-Reuse.md
+|   |   |-- 03-Frontend/
+|   |   |   |-- 01-Public-and-Protected-Interfaces.md
+|   |   |   |-- 02-Owner-Administration.md
+|   |   |-- 04-Backend-and-Data/
+|   |   |   |-- 01-Application-Logic-and-Authorization.md
+|   |   |   |-- 02-Persistence-Migrations-and-Files.md
+|   |   |-- 05-Integrations/
+|   |   |   |-- 01-Mail-and-Translation-Implementation.md
+|   |-- 03-Testing/
+|   |   |-- 01-Verification/
+|   |   |   |-- 01-Test-Plan-and-Results.md
+|   |   |   |-- 02-Unit-Integration-and-System-Tests.md
+|   |   |-- 02-Experience-and-Acceptance/
+|   |   |   |-- 01-Design-QA.md
+|   |   |   |-- 02-User-Acceptance.md
+|   |   |-- 03-Security-and-Privacy/
+|   |   |   |-- 01-Access-and-Data-Protection-Tests.md
+|   |   |-- 04-Accessibility-Compatibility-and-Performance/
+|   |   |   |-- 01-Quality-Attribute-Tests.md
+|-- 06-Deployment-Release/
 |   |-- 01-Release-Management/
 |   |   |-- 01-Release-and-Launch.md
 |   |   |-- 02-Build-Test-and-Release-Automation.md
@@ -122,7 +123,7 @@ SDLC/
 |   |   |-- 01-Migrations-Backup-and-Rollback.md
 |   |-- 04-Production-Verification-and-Guidance/
 |   |   |-- 01-Smoke-Checks-and-Owner-Guide.md
-|-- 09-Maintenance/
+|-- 07-Maintenance-Evolution/
 |   |-- 01-Operations/
 |   |   |-- 01-Operations-and-Maintenance.md
 |   |   |-- 02-Monitoring-Incidents-and-Recovery.md

@@ -22,4 +22,4 @@ Receipt detection, request-to-approval correlation, duplicate acknowledgement ha
 Describe information exchanged, triggering events, expected outcomes and failure cases here. Provider/API/protocol choices belong in [Integrations](../../04-System-Design/04-Interfaces-and-Integrations/02-Email-and-Translation-Integrations.md). Translation provider, cost and handling of confidential text remain open. No automatic job-portal submission or inbox import is included in MVP.
 
 - [System context](../01-System-Context/01-System-Overview-and-Context.md)
-- [Open requirements decisions](../../02-Requirements/03-Scope-and-Constraints/01-Constraints-Assumptions-Risks.md)
+- [Open requirements decisions](../../02-Requirements-Engineering/03-Scope-and-Constraints/01-Constraints-Assumptions-Risks.md)

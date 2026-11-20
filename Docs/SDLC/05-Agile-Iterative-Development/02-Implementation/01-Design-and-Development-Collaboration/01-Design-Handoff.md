@@ -12,7 +12,7 @@ The primary screen and component specifications stay in their original design do
 
 ## Collaboration
 
-Implementation questions and their resolutions are recorded in [Implementation and Design Collaboration](02-Development-Collaboration.md). Update the original design source when an agreed resolution changes the intended interface. Verification of the implemented result belongs to the [Testing phase](../../07-Testing/).
+Implementation questions and their resolutions are recorded in [Implementation and Design Collaboration](02-Development-Collaboration.md). Update the original design source when an agreed resolution changes the intended interface. Verification of the implemented result belongs to the [Testing workstream](../../03-Testing/).
 
 ## Working material
 

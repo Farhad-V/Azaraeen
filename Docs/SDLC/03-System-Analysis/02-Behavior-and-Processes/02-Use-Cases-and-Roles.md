@@ -14,6 +14,6 @@ All approved visitor access opens the published protected content, with applicat
 
 ## Detailed use-case template
 
-For each selected use case, record: actor, goal, trigger, preconditions, main flow, alternate/error flows, resulting state and linked requirement identifiers. Derive behavior from [Functional Requirements](../../02-Requirements/02-Requirement-Specification/01-Functional-Requirements.md); link process diagrams from [Processes and User Scenarios](01-Processes-and-User-Scenarios.md).
+For each selected use case, record: actor, goal, trigger, preconditions, main flow, alternate/error flows, resulting state and linked requirement identifiers. Derive behavior from [Functional Requirements](../../02-Requirements-Engineering/02-Requirement-Specification/01-Functional-Requirements.md); link process diagrams from [Processes and User Scenarios](01-Processes-and-User-Scenarios.md).
 
 Detailed use-case specifications remain to be written.

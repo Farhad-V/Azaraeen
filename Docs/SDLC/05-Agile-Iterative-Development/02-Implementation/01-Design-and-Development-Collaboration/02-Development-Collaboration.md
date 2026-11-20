@@ -4,7 +4,7 @@
 
 Build reviewed behavior in frontend, backend, database and integrations. Record implementation decisions, resolve technical/design ambiguities and review changes in manageable increments. Apply validation, authorization, error handling and relevant developer checks alongside each feature.
 
-Use [design specifications](01-Design-Handoff.md), [technical architecture](../../04-System-Design/01-Architecture/03-Architecture-Decisions.md) and [requirements](../../02-Requirements/02-Requirement-Specification/01-Functional-Requirements.md) as linked sources. Do not copy design specifications into this phase.
+Use [design specifications](01-Design-Handoff.md), [technical architecture](../../../04-System-Design/01-Architecture/03-Architecture-Decisions.md) and [requirements](../../../02-Requirements-Engineering/02-Requirement-Specification/01-Functional-Requirements.md) as linked sources. Do not copy design specifications into this phase.
 
 ## Expected outputs
 

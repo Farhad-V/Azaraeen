@@ -1,18 +1,18 @@
 ## SDLC documentation guide
 
-These nine folders are the working organization chosen for Azaraeen. They are not a prescribed universal lifecycle, nine independent projects or a required one-pass sequence. Folder numbers support navigation. Research, security, accessibility, quality assurance and collaboration span multiple phases.
+These seven folders are the working organization chosen for Azaraeen. They are not a prescribed universal lifecycle, independent projects or a required one-pass sequence. Folder numbers support navigation. Research, security, accessibility, quality assurance and collaboration span multiple phases.
 
 | Phase | Primary documentation |
 |---|---|
 | [01 Project Planning](../01-Project-Definition/01-Project-Plan.md) | Purpose, scope, delivery approach, responsibilities, resources and risks. |
-| [02 Requirements](../../02-Requirements/02-Requirement-Specification/01-Functional-Requirements.md) | User needs, required capabilities, quality expectations and acceptance criteria; supported by discovery evidence. |
+| [02 Requirements Engineering](../../02-Requirements-Engineering/02-Requirement-Specification/01-Functional-Requirements.md) | User needs, required capabilities, quality expectations and acceptance criteria; supported by discovery evidence. |
 | [03 System Analysis](../../03-System-Analysis/01-System-Context/01-System-Overview-and-Context.md) | Detailed models of processes, domain information, rules and state transitions. Requirements analysis overlaps this work; models support rather than replace the requirement statements. |
 | [04 System Design](../../04-System-Design/01-Architecture/03-Architecture-Decisions.md) | Technical architecture, database, interfaces, security mechanisms and integrations. |
-| [05 UX/UI Design](../../05-UX-UI-Design/) | Information architecture, interactions, screens, prototypes, evaluation and design specifications for implementation. |
-| [06 Implementation](../../06-Implementation/01-Design-and-Development-Collaboration/02-Development-Collaboration.md) | Construction guidance, implementation decisions and collaboration resolving design/engineering issues. |
-| [07 Testing](../../07-Testing/) | Verification plans/results, implementation design review and acceptance evidence. Test planning begins before coding is complete. |
-| [08 Deployment](../../08-Deployment/01-Release-Management/01-Release-and-Launch.md) | Release configuration, production checks, recovery and owner guidance. |
-| [09 Maintenance](../../09-Maintenance/01-Operations/01-Operations-and-Maintenance.md) | Operations, defect correction, updates and post-release evaluation. |
+| [05 Agile Iterative Development — UX/UI Design](../../05-Agile-Iterative-Development/01-UX-UI-Design/) | Information architecture, interactions, screens, prototypes, evaluation and design specifications for implementation. |
+| [Agile Iterative Development — Implementation](../../05-Agile-Iterative-Development/02-Implementation/01-Design-and-Development-Collaboration/02-Development-Collaboration.md) | Construction guidance, implementation decisions and collaboration resolving design/engineering issues. |
+| [Agile Iterative Development — Testing](../../05-Agile-Iterative-Development/03-Testing/) | Verification plans/results, implementation design review and acceptance evidence. Test planning begins before coding is complete. |
+| [06 Deployment and Release](../../06-Deployment-Release/01-Release-Management/01-Release-and-Launch.md) | Release configuration, production checks, recovery and owner guidance. |
+| [07 Maintenance and Evolution](../../07-Maintenance-Evolution/01-Operations/01-Operations-and-Maintenance.md) | Operations, defect correction, updates and post-release evaluation. |
 
 ## Document ownership and overlap
 

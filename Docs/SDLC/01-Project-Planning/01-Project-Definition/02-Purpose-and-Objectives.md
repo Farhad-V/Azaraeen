@@ -6,4 +6,4 @@ Planning turns that direction into agreed scope, deliverables, collaboration, re
 
 ## Success and acceptance
 
-Assess the selected product behavior through requirements and [acceptance criteria](../../02-Requirements/04-Acceptance-and-Traceability/01-Acceptance-Criteria-and-Traceability.md). Numerical KPIs, traffic targets and hiring outcomes have not been agreed. Personal time allocation and delivery dates remain outside the agreed planning scope.
+Assess the selected product behavior through requirements and [acceptance criteria](../../02-Requirements-Engineering/04-Acceptance-and-Traceability/01-Acceptance-Criteria-and-Traceability.md). Numerical KPIs, traffic targets and hiring outcomes have not been agreed. Personal time allocation and delivery dates remain outside the agreed planning scope.

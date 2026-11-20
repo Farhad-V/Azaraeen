@@ -26,4 +26,4 @@ Analyze validation rules and observable error outcomes. Link each scenario to it
 | Translation fails or English changes | Preserve publication/approval rules and English fallback; define owner feedback. |
 | Invalid or inconsistent application/event dates | Establish permitted corrections and chronological rules without assuming every unusual date is invalid. |
 
-These open scenarios are not newly approved feature requirements. Resolve them against the [requirements baseline](../../02-Requirements/02-Requirement-Specification/01-Functional-Requirements.md) and record accepted rules in [Business Rules and State Transitions](03-Business-Rules-and-State-Transitions.md).
+These open scenarios are not newly approved feature requirements. Resolve them against the [requirements baseline](../../02-Requirements-Engineering/02-Requirement-Specification/01-Functional-Requirements.md) and record accepted rules in [Business Rules and State Transitions](03-Business-Rules-and-State-Transitions.md).

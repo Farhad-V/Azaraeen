@@ -23,4 +23,4 @@ Planning; requirements and acceptance criteria; system analysis; system design a
 
 Support public discovery, approved access to private content, owner administration, application tracking and bilingual publication. Protection must cover original files as well as pages. Archived submissions must survive later content edits.
 
-Detailed feature decisions are maintained in the [Requirements baseline](../../02-Requirements/02-Requirement-Specification/01-Functional-Requirements.md).
+Detailed feature decisions are maintained in the [Requirements baseline](../../02-Requirements-Engineering/02-Requirement-Specification/01-Functional-Requirements.md).
