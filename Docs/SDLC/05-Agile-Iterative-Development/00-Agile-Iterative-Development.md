@@ -1,7 +1,8 @@
 # Agile Iterative Development
 
-Plan and verify the application in increments. Sprint records are available for [Sprint 01](Sprints/Sprint-01/) and [Sprint 02](Sprints/Sprint-02/).
+Use the backlog to choose small increments with demonstrable acceptance criteria. The candidate sequence is a public and bilingual publication slice, then an application archive and access slice. Confirm sprint scope with Samira before committing to dates.
 
-- [Project Setup](01-Project-Setup.md)
-- [Test Strategy](02-Test-Strategy.md)
-- [Product Backlog](../02-Requirements-Engineering/02-Product-Backlog.md)
+- [Project setup](01-Project-Setup.md)
+- [Test strategy](02-Test-Strategy.md)
+- [Sprint 01](Sprints/Sprint-01/01-Sprint-Planning.md)
+- [Sprint 02](Sprints/Sprint-02/01-Sprint-Planning.md)

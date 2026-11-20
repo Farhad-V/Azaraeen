@@ -1,48 +1,18 @@
 # Deployment Runbook
 
-Use the migration, recovery and production checks for the release.
+## Prepare
 
+Record the current and candidate versions. Verify access to configuration without printing secrets. Check that a compatible backup exists for the database and private files.
 
-## Migrations, backup and rollback
+## Deploy and verify
 
-## Work topics
+Apply approved migrations and deploy. Smoke-test public EN/DE, owner access, protected file denial for unauthorized sessions, valid and expired grants, correct application resume and approved email delivery. Use synthetic records for production checks where possible.
 
-Prepare consistent database/file backups, release migrations and an actionable rollback or restoration procedure.
+## Recover
 
-## Expected artifacts
+If a critical access, history or delivery check fails, stop the rollout. Restore the previous compatible release or follow the tested database and file recovery order. Record findings, affected versions and recovery results.
 
-Pre-release checks, recovery steps, consequences for new data and recovery verification. Do not assume reversing application code reverses a database change.
+## Related documents
 
-## Current material
-
-Topic outline. Decisions, implementation and verification evidence will be added as the work is performed.
-
-
-## Production verification and owner guidance
-
-## Work topics
-
-Verify key journeys on the actual domain after release and document routine owner tasks.
-
-## Expected artifacts
-
-Checks for public/private content, access, correct resume delivery and email; guidance for publishing, access administration and application archiving.
-
-## Current material
-
-Topic outline. Decisions, implementation and verification evidence will be added as the work is performed.
-
-
-## Monitoring, incidents and recovery
-
-## Work topics
-
-Review operational errors and mail failures, investigate incidents and verify backups can restore required data.
-
-## Expected artifacts
-
-Incident findings, recovery evidence and follow-up actions. Use approved diagnostic data without expanding visitor analytics.
-
-## Current material
-
-Topic outline. Decisions, implementation and verification evidence will be added as the work is performed.
+- [Test strategy](../05-Agile-Iterative-Development/02-Test-Strategy.md)
+- [Release notes](03-Release-Notes.md)

@@ -1,3 +1,7 @@
-# Sprint-01 Review
+# Sprint 01 Review
 
-Record the increment demonstrated, acceptance findings and follow-up work once the review takes place.
+**Status:** Review has not taken place.
+
+Review the public page in both locales and demonstrate that an unapproved German revision falls back to English. Verify drafts stay private.
+
+Record the demo version, acceptance outcomes, Samira's feedback and follow-up decisions here.

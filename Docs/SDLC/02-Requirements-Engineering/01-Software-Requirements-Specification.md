@@ -1,11 +1,8 @@
 # Software Requirements Specification
 
-The functional and non-functional requirements supply the baseline for Azaraeen.
-
+Azaraeen combines a bilingual public and protected portfolio with Samira's private application archive. The requirements below are the agreed MVP. Verification status is tracked in the [requirements traceability matrix](03-Requirements-Traceability-Matrix.md).
 
 ## Functional requirements
-
-Product behavior agreed in project discussions. Identifiers support cross-references; they do not indicate implementation or acceptance status.
 
 - **FR-01** Public introduction: configurable header, hero, profile image, short summary, GitHub/LinkedIn links, selected skills, languages, work and education summaries.
 - **FR-02** Owner-controlled public/private visibility, including profile image and separate certificate title, description and file visibility. Private titles can be completely absent publicly.
@@ -27,68 +24,17 @@ Product behavior agreed in project discussions. Identifiers support cross-refere
 - **FR-18** Side-by-side English/German preview. Missing/unapproved German content falls back to English without hiding the section. Publishing changed English invalidates the related German approval until reviewed.
 - **FR-19** Content edits remain drafts until owner publication; previous published content remains visible until replacement is published.
 
-## Related documents
+## Quality requirements
 
-- Nonfunctional requirements
-- Constraints, assumptions and risks
-- Scope and prioritization
-- Acceptance and traceability
+- Apply authorization to protected pages, metadata and original files. Verify owner-only archive access and immediate enforcement of expiry and revocation.
+- Preserve submitted artifact versions and dated history across publication, renewal, edits and restoration.
+- Support keyboard navigation, visible focus, understandable error feedback and EN/DE fallback. Quantitative accessibility, performance and recovery acceptance targets are open.
+- Establish recovery procedures for the database and private storage, then verify them together before release.
 
+## Scope boundaries
 
-## Nonfunctional requirements
+The archive is manual. Multiple templates, an advanced page builder, automatic application inbox imports, detailed activity tracking and a separate follow-up dashboard are excluded from the MVP.
 
-## Agreed quality expectations
+## Open decisions
 
-- Protect original private files as well as pages; restrict the application archive to the owner.
-- Preserve submitted documents and application/access history independently of later edits.
-- Keep visitor entry simple and support reviewed bilingual publication.
-- Define admin authentication, accessibility and performance acceptance criteria during requirements development; no numerical targets are assumed.
-
-## Quality criteria requiring definition
-
-Security verification, accessibility targets, performance limits, backup/recovery objectives and operational reliability criteria remain to be specified. No numerical targets or completed compliance assessments are implied.
-
-Behavioral access/publication rules remain in Functional Requirements. Technical mechanisms belong in System Design, and verification evidence belongs in Testing.
-
-
-## Constraints, assumptions and risks
-
-## Constraints and assumptions
-
-- Existing azaraeen.de domain and Hetzner Level 1 hosting are the baseline, subject to technical suitability.
-- Application archiving is manual in MVP; automatic handling of access-request acknowledgements and approved access delivery is a separate requirement.
-- English is the default language; German translation requires owner approval.
-- Personal scheduling and numerical budgets are not specified.
-
-## Open decisions, dependencies and risks
-
-- Validate hosting runtime/database/deployment capabilities and private file delivery.
-- Define email receipt detection, acknowledgement, approval UI and reliable automatic delivery without assuming inbox synchronization.
-- Translation service, cost and treatment of confidential text sent externally remain unresolved.
-- Design secure credential storage and the requested copy/delivery workflow; never expose credentials in public content or logs.
-- Define backup/restoration, archive deletion/retention, authentication protection and privacy notices during requirements/analysis.
-- Application-specific resume availability before a file is uploaded needs explicit behavior; no unrelated resume should silently replace it.
-- Clarify exact document types/limits and case-study count during content requirements; the spoken count was ambiguous.
-- Expiry cannot retract content already downloaded, captured or rendered.
-
-These are unresolved items, not implemented solutions. The project-wide risk overview remains in Project Planning; this document records their implications for requirements.
-
-
-## Prioritization and scope
-
-## Agreed MVP
-
-The functional baseline FR-01 through FR-19 is included in the agreed MVP: public introduction, configurable protected content, early application access creation, expiry/renewal, basic visits, email access requests, the private searchable application archive, resume version selection and bilingual publication.
-
-No finer ordering, scoring or sprint allocation has been agreed. Requirement numbers are identifiers, not priorities. Dependencies should inform the order of implementation without introducing personal scheduling commitments.
-
-## Deferred or excluded from MVP
-
-- Multiple templates and advanced page builders.
-- Page/download tracking and detailed visitor analytics.
-- Automatic import of application correspondence from an inbox.
-- A separate upcoming-task dashboard.
-
-## Scope decisions
-
-Project Planning is the primary source for project scope. This document applies that scope to the functional baseline. Proposed additions require Samira's decision and corresponding updates to affected requirements and acceptance criteria.
+Confirm hosting and runtime fit, owner authentication, mail receipt and delivery, translation provider data handling, file limits, retention and the visitor-facing behavior when an application resume is unavailable. See [feasibility and risk](../01-Project-Planning/03-Feasibility-And-Risk-Assessment.md) and the [architecture decision index](../04-System-Design/ADR/Decision-Index.md).

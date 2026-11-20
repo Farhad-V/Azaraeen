@@ -1,3 +1,5 @@
-# Selected Mvp Implementation Baseline
+# ADR 006 — Selected Mvp Implementation Baseline
 
-Status: open. No decision is recorded for Azaraeen.
+**Status:** Open
+
+Select the runtime, persistence and private storage only after a hosting proof with HTTPS, authenticated file delivery, migration and recoverable backups. Document the selected stack and local startup commands when evidence exists.

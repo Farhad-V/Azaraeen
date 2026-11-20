@@ -1,3 +1,5 @@
-# Compatible Incremental Design Evolution
+# ADR 004 — Compatible Incremental Design Evolution
 
-Status: open. No decision is recorded for Azaraeen.
+**Status:** Proposed
+
+Deliver compatible increments with migrations that preserve application, file and grant history. Verify rollback compatibility and restore both the database and private storage before destructive schema changes.
